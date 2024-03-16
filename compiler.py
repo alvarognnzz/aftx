@@ -1,3 +1,5 @@
+import sys
+
 def compile_array(file):
     text = []
     f = open(file, "r")
@@ -16,3 +18,13 @@ def compile_array(file):
 
 def compile_text(array):
     return '\n'.join(array)
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("[ERROR] Please provide a file path as an argument.")
+        sys.exit(1)
+    
+    file_path = sys.argv[1]
+    compiled_array = compile_array(file_path)
+    compiled_text = compile_text(compiled_array)
+    print(compiled_text)
