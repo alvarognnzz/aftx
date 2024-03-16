@@ -6,13 +6,13 @@ def compile_array(file):
 
     for line in f:
         if line.startswith("# "):
-            text.append("<h1>" + line[2:].rstrip() + "</h1>")
+            text.append('<h1>{}</h1>'.format(line[2:].rstrip()))
         
         elif line.startswith("## "):
-            text.append("<h2>" + line[3:].rstrip() + "</h2>")
+            text.append('<h2>{}</h2>'.format(line[3:].rstrip()))
 
         elif line.strip() != '':
-            text.append(line.rstrip())
+            text.append('<p>{}</p>'.format(line.rstrip()))
 
     return text
 
