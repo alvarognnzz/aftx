@@ -27,4 +27,7 @@ if __name__ == "__main__":
     file_path = sys.argv[1]
     compiled_array = compile_array(file_path)
     compiled_text = compile_text(compiled_array)
-    print(compiled_text)
+
+    f = open("template.html")
+    template = f.read()
+    print(template.format(compiled_text))
