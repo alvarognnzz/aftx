@@ -28,6 +28,15 @@ The syntax aims to be very simple and similar to Markdown.
 ## This is a subtitle
 ```
 
+### List
+
+```
+- This
+- Is
+- A
+- List
+```
+
 ## Roadmap
 
 todo
