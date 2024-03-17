@@ -18,5 +18,5 @@ todo
 ## Roadmap
 todo
 
-## Download
-todo
+## Installation
+Before installing, make sure you install [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html) and add it to your system path.
