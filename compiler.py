@@ -7,15 +7,35 @@ def compile_array(file):
     text = []
     f = open(file, "r")
 
+    in_list = False
+
     for line in f:
         if line.startswith("# "):
             text.append('<h1>{}</h1>'.format(line[2:].rstrip()))
+            if in_list:
+                text.append('</ul>')
+                in_list = False
         
         elif line.startswith("## "):
             text.append('<h2>{}</h2>'.format(line[3:].rstrip()))
+            if in_list:
+                text.append('</ul>')
+                in_list = False
+
+        elif line.strip().startswith("- "):
+                if not in_list:
+                    text.append('<ul>')
+                    in_list = True
+                text.append('<li>{}</li>'.format(line[2:].rstrip()))
 
         elif line.strip() != '':
+            if in_list:
+                text.append('</ul>')
+                in_list = False
             text.append('<p>{}</p>'.format(line.rstrip()))
+
+    if in_list:
+        text.append('</ul>')
 
     return text
 
