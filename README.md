@@ -39,7 +39,10 @@ The syntax aims to be very simple and similar to Markdown.
 
 ## Roadmap
 
-todo
+- [ ] Add support to more types of subtitles (h1-h6)
+- [ ] Integrate images
+- [ ] Include ordered lists
+- [ ] Create a configurable font system (using google fonts)
 
 ## Installation
 
