@@ -12,8 +12,18 @@ alvgonzx's formatted text. Simple and minimalist formatted text system inspired 
 ## Formatted text system
 This formatted text system is used to create simple text documents with a readable and appealing format. It uses a syntax similar to Markdown that makes the creation of text documents easier.
 
-## Features
-todo
+## Syntax
+The syntax aims to be very simple and similar to Markdown.
+
+### Title
+```
+# This is a title
+```
+
+### Subtitle
+```
+## This is a subtitle
+```
 
 ## Roadmap
 todo
