@@ -44,3 +44,21 @@ todo
 ## Installation
 
 Before installing, make sure you install [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html) and add it to your system path.
+
+### Git clone
+
+```
+git clone https://github.com/alvgonzx/aftx.git
+```
+
+### Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### Run the compiler
+```
+python compiler.py examples/lorem.aftx
+```
+Now you can create your own aftx files and start focusing on productivity.
