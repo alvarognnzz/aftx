@@ -2,7 +2,7 @@
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-alvgonzx's formatted text. Simple and minimalist formatted text system inspired by Markdown and LaTeX.
+alvarognnzz's formatted text. Simple and minimalist formatted text system inspired by Markdown and LaTeX.
 
 <p align="center">
   <img src="https://github.com/alvgonzx/aftx/assets/77798268/ec0f4303-bac5-4b61-ba4e-99208489eac0https://github.com/alvgonzx/aftx/assets/77798268/ec0f4303-bac5-4b61-ba4e-99208489eac0" />
