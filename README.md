@@ -65,4 +65,3 @@ pip install -r requirements.txt
 ```
 python compiler.py examples/lorem.aftx
 ```
-Now you can create your own aftx files and start focusing on productivity.
